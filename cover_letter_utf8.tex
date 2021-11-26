@@ -1,0 +1,112 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awesome Cover Letter
+% XeLaTeX Template
+% Version 1.1 (9/1/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Claud D. Park (posquit0.bj@gmail.com)
+% Lars Richter (mail@ayeks.de)
+% With modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template must be compiled with XeLaTeX, the below lines will ensure this
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+\geometry{left=2cm, top=1.5cm, right=2cm, bottom=2cm, footskip=.5cm} % Configure page margins with geometry
+\fontdir[fonts/] % Specify the location of the included fonts
+
+% Color for highlights
+\colorlet{awesome}{awesome-darkblue} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+%\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
+
+% Colors for text - uncomment and modify
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+\renewcommand{\ULthickness}{2pt}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%----------------------------------------------------------------------------------------
+
+\name{Øistein}{Wind-Willassen}
+\address{Tønsbergvej 176, 4000 Roskilde, Denmark}
+\mobile{(+45) 25 12 59 91}
+
+\email{oistein.wind@gmail.com}
+\linkedin{øistein-wind-willassen-2326412}
+\github{github.com/oisteinwind}
+\position{DevOps engineer} 
+%----------------------------------------------------------------------------------------
+%	RECIPIENT/POSITION/LETTER INFORMATION
+%	All of the below lines must be filled out
+%----------------------------------------------------------------------------------------
+
+% \date{21. marts, 2016}
+\recipient{To Oticon}{Smørum, Denmark} % The company being applied to
+
+\letterdate{\today} % The date on the letter, default is the date of compilation
+\lettertitle{Product Owner for the Hearing aid software DevOps Team} % The title of the letter
+
+\letteropening{} % How the letter is opened
+
+\letterclosing{Best regards,} % How the letter is closed
+
+\letterenclosure[Attached]{Curriculum Vitae} % Any enclosures with the letter
+\makecvfooter{\today}{Øistein Wind-Willassen}{\thepage}
+  
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvheader % Print the header
+
+\makelettertitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\begin{cvletter}
+"Do it! Send an application, this looks too interesting not to" were my initial thoughts after reading the job posting for this position. The role as Product Owner for your devops team doing CI/CD and test automation encompasses so many things that I am passionate about. Currently, I am a devops engineer but I have occasionally shifted into a more managerial role and taken on the responsibility of roadmap-creation, stakeholder management and planning of features.
+
+An example of this is my current position. Here I am involved in setting the vision for the next-generation monitoring platform for BEC. This involves determining what customers require of the platform, and balancing this against the technical requirements of the team which is going to deliver the platform.
+
+My experience with Product Owner tasks is limited but I am confident I will be able to deliver good results anyway, since I will supply your team with a strong analytical mindset along with a solid devops knowledge and toolbox. I consider myself to be a "strong" agilist and I have a good sense of what quality solutions look like. However, I try to also keep focus on the balance between "nice-to-have" and "need-to-have" from a stakeholder (customers, the team, funders, etc.) perspective.
+
+My biggest assets are probably my honesty and my eagerness to continuously improve. The latter case is meant not only in the context of my core technical skills but also my personal competencies. I want to be at a place where I am challenged and learning new things, and it is my belief that I can achieve this at Oticon.
+
+Technically, many of the technologies listed in the job posting are very familiar to me. I've been developing a shared library for CI/CD pipelines in Jenkins which had the purpose of executing build, test, release and deploy steps, primarily targeting an OpenShift PaaS (which is a downstream Kubernetes project). I am a strong believer in infrastructure-as-code and I have a very good knowledge on how to use Git.
+
+My thoughts are that, as a Product Owner, I will be able to utilize my technical background to engage in more meaningful discussion with less misunderstandings.
+
+My background is rooted in physics and mathematics and this has given me a solid analytical mindset. I'm not afraid of speaking up if I think things do not add up. But I'm also not afraid to own my mistakes and I try my best to learn from them and improve.
+
+I'm a social person - I thrive amongst others and really enjoy being able to work towards a common goal. But things should be balanced, and I also like to dive deep into problems on my own.
+
+This was a very short presentation so it's my hope that You'll want to know more and I'm looking forward to Your reply.
+\end{cvletter}
+
+%----------------------------------------------------------------------------------------
+
+\makeletterclosing % Print the signature and enclosures
+
+\end{document}

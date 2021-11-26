@@ -1,0 +1,106 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awesome Cover Letter
+% XeLaTeX Template
+% Version 1.1 (9/1/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Claud D. Park (posquit0.bj@gmail.com)
+% Lars Richter (mail@ayeks.de)
+% With modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template must be compiled with XeLaTeX, the below lines will ensure this
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+\geometry{left=2cm, top=1.5cm, right=2cm, bottom=2cm, footskip=.5cm} % Configure page margins with geometry
+\fontdir[fonts/] % Specify the location of the included fonts
+\usepackage[utf8]{inputenc}
+% Color for highlights
+\colorlet{awesome}{awesome-skyblue} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+%\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
+
+% Colors for text - uncomment and modify
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%----------------------------------------------------------------------------------------
+
+\name{Øistein}{Wind-Willassen}
+\address{Tønsbergvej 176, 4000 Roskilde, Denmark}
+\mobile{(+45) 25 12 59 91}
+
+\email{oistein.wind@gmail.com}
+\position{IT-architect, ph.d. mathematics} 
+%----------------------------------------------------------------------------------------
+%	RECIPIENT/POSITION/LETTER INFORMATION
+%	All of the below lines must be filled out
+%----------------------------------------------------------------------------------------
+
+% \date{21. marts, 2016}
+\recipient{BEC} % The company being applied to
+
+\letterdate{\today} % The date on the letter, default is the date of compilation
+\lettertitle{System Architect}
+
+
+
+
+\letterclosing{Best regards,} % How the letter is closed
+
+\makecvfooter{\today}{Øistein Wind-Willassen}{\thepage}
+  
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvheader % Print the header
+
+\makelettertitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\begin{cvletter}
+Dear Dominika.
+
+I am currently working in P&A as an it-architect/devops engineer in the Application Observability team. For some time now I have been wanting to shift into a more architecting-type role, and I think this job posting is a good fit for my skillset and current ambitions. I've had the chance to work with Brian Klausen on several occasions and (partly) based on this I feel like I can bring a lot of value to P\&A in the role as System Architect.
+
+I come with a very structured and analytical mindset which originates in my ph.d. in mathematics, and I have a keen interest in the architectural disciplines which relate to categorizing, structuring information and simplifying complexity (to the relevant and necessary degree).
+
+Even though I like to employ models and visualizations to enhance our understanding of certain phenomena, I am also aware that such representations will never fully reflect the reality. Modelling should be used to assist our thought-processes, but they should always be considered an idealistic and simplified construct of the actual world. In my current work I always produce artifacts to support the work my team is doing, and I appreciate the value which they can bring.
+
+As a person, I am structured and analytical and I have a good sense of what clear communication is - and when things are being misunderstood. I like to think of myself as solid when it comes to written communication, but I also try to enhance my verbal presentation skills whenever I get the opportunity; I've been a speaker at several Community of Practices at BEC, and P\&A system demos, and I often end up presenting the plan for my team subsequent to PI-Plannings.
+
+Certainly, there are areas in which I lack skills, but I have a good appetite for knowledge and I pick new things up pretty quick. To back up my claims in this cover letter, I hope you will talk to some of my colleagues, e.g. Jeanne Kølbæk Jensen, Brian Klausen, Cecilie Abildgaard Nielsen, Niels Jørgen Hansen or Martin Silkjær (there are many others, but the mentioned people will provide a good all-round picture, in my opinion).
+
+I look forward to hearing from you.
+\end{cvletter}
+
+%----------------------------------------------------------------------------------------
+
+\makeletterclosing % Print the signature and enclosures
+
+\end{document}
