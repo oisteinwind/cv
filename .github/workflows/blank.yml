@@ -9,4 +9,6 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
+          extra_fonts: |
+            ./fonts/*.*
           root_file: resume_cv.tex
