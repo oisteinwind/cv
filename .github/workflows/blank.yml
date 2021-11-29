@@ -12,3 +12,4 @@ jobs:
           extra_fonts: |
             ./fonts/*.*
           root_file: resume_cv.tex
+          latexmk_use_lualatex: true
