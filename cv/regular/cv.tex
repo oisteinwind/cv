@@ -24,11 +24,11 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{../resources/awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
 \usepackage{tikz}
 \geometry{left=2cm, top=1.5cm, right=2cm, bottom=2cm, footskip=.5cm} % Configure page margins with geometry
 
-\fontdir[fonts/] % Specify the location of the included fonts
+\fontdir[../resources/fonts/] % Specify the location of the included fonts
 
 % Color for highlights
 \colorlet{awesome}{awesome-darkblue} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
@@ -71,16 +71,16 @@
 \makecvheaderleft % Print the header
 \begin{tikzpicture}[remember picture, overlay]
   \node [anchor=north east, inner sep=30pt]  at (current page.north east)
-     {\includegraphics[height=4cm]{profile.jpg}};
+     {\includegraphics[height=4cm]{../resources/profile.jpg}};
 \end{tikzpicture}
 %----------------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %----------------------------------------------------------------------------------------
-\input{cv-sections/experience.tex}
-\input{cv-sections/education.tex}
-\input{cv-sections/skills.tex}
-\input{cv-sections/extra.tex}
+\input{experience.tex}
+\input{education.tex}
+\input{skills.tex}
+\input{extra.tex}
 %----------------------------------------------------------------------------------------
 
 \end{document}
